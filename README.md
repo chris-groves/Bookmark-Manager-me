@@ -9,6 +9,16 @@
 
 4. Create the bookmarks table within the database: ```CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));```
 
+## Working with the Database
+
+View the bookmarks table: ```SELECT * FROM bookmarks;```
+
+Add bookmarks to the table: ```INSERT INTO bookmarks (url) VALUES('www.google.com');```
+
+Delete bookmarks from the table: ```DELETE FROM bookmarks WHERE url = 'www.twitter.com';```
+
+Amend a bookmark entry: ```UPDATE bookmarks SET url = 'www.destroyallsoftware.com' WHERE url = 'www.askjeeves.com'```
+
 ## User Stories
 
 ```
