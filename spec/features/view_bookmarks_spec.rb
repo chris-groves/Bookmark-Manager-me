@@ -5,6 +5,6 @@ feature 'View bookmarks' do
     visit ('/bookmarks')
     expect(page).to have_content 'www.makersacademy.com'
     expect(page).to have_content 'www.destroyallsoftware.com'
-    expect(page).to have_content 'www.google.co.uk'
+    expect(page).to have_content 'www.google.com'
   end
 end
