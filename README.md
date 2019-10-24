@@ -37,4 +37,8 @@ Amend a bookmark entry: ```UPDATE bookmarks SET url = 'www.destroyallsoftware.co
 As a user,
 So I can easily access my favourite websites,
 I would like to see a list of bookmarks
+
+As a user,
+So I can store a new website I like,
+I would like to add a new bookmark
 ```
