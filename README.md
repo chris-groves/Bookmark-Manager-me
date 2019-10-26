@@ -21,6 +21,7 @@
 
 4. Create the bookmarks table within the database: ```CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));```
 
+5. Add title column to bookmarks table: ```ALTER TABLE bookmarks ADD COLUMN title VARCHAR(60);```
 
 
 ## Working with the Database
