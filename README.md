@@ -44,4 +44,8 @@ I would like to see a list of bookmarks
 As a user,
 So I can store a new website I like,
 I would like to add a new bookmark
+
+As a user,
+So I can remove my bookmark from Bookmark Manager
+I want to delete a bookmark
 ```
