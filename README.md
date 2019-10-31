@@ -48,4 +48,8 @@ I would like to add a new bookmark
 As a user,
 So I can remove my bookmark from Bookmark Manager
 I want to delete a bookmark
+
+As a user,
+So I can change a bookmark in Bookmark Manager,
+I want to update a bookmark
 ```
