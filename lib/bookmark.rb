@@ -3,14 +3,8 @@ require 'pg'
 class Bookmark
 
   def self.all
-    if ENV['ENVIRONMENT'] == 'test'
-      connection = PG.connect(dbname: 'bookmark_manager_test')
-    else
-      connection = PG.connect(dbname: 'bookmark_manager')
-    end
-
-    bookmarks = connection.exec('SELECT * FROM bookmarks;')
-    bookmarks.map do |bookmark|
+    result = DatabaseConnection.query("SELECT * FROM bookmarks")
+    result.map do |bookmark|
       Bookmark.new(
         id: bookmark['id'],
         title: bookmark['title'],
