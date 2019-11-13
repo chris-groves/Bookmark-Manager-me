@@ -52,4 +52,8 @@ I want to delete a bookmark
 As a user,
 So I can change a bookmark in Bookmark Manager,
 I want to update a bookmark
+
+As a user,
+So that I can use the bookmarks that are saved
+I want to ensure the bookmark added has a valid url
 ```
