@@ -11,6 +11,9 @@
 
 5. Add title column to bookmarks table: ```ALTER TABLE bookmarks ADD COLUMN title VARCHAR(60);```
 
+6. Create comments table: ```CREATE TABLE comments(id SERIAL PRIMARY KEY, text VARCHAR(240), bookmark_id INTEGER REFERENCES bookmarks (id));```
+
+
 ## Training Database Setup
 
 1. Connect to psql with the following command in the terminal:```psql postgres```
@@ -23,6 +26,8 @@
 
 5. Add title column to bookmarks table: ```ALTER TABLE bookmarks ADD COLUMN title VARCHAR(60);```
 
+6. Create comments table: ```CREATE TABLE comments(id SERIAL PRIMARY KEY, text VARCHAR(240), bookmark_id INTEGER REFERENCES bookmarks (id));```
+
 
 ## Working with the Database
 
@@ -33,6 +38,7 @@ Add bookmarks to the table: ```INSERT INTO bookmarks (url) VALUES('www.google.co
 Delete bookmarks from the table: ```DELETE FROM bookmarks WHERE url = 'www.twitter.com';```
 
 Amend a bookmark entry: ```UPDATE bookmarks SET url = 'www.destroyallsoftware.com' WHERE url = 'www.askjeeves.com'```
+
 
 ## User Stories
 
