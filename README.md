@@ -56,4 +56,8 @@ I want to update a bookmark
 As a user,
 So that I can use the bookmarks that are saved
 I want to ensure the bookmark added has a valid url
+
+As a user,
+So I can give and receive feedback on bookmarks,
+I want to add a comment to a bookmark
 ```
