@@ -1,5 +1,13 @@
-bookmarks
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookmarks</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <header style="color: blue;">
+    <h1>Bookmarks</h1>
+  </header>
 <ul>
   <% @bookmarks.each do |bookmark| %>
     <li class="bookmark" id="bookmark-<%= bookmark.id %>">
@@ -27,3 +35,5 @@ bookmarks
 <p>
   <%= flash[:notice] %>
 </p>
+  </body>
+</html>
